@@ -30,4 +30,4 @@ RUN ln -s /opt/conda/bin/pip /usr/local/bin/pip3
 RUN ln -s /opt/conda/bin/pip /usr/local/bin/pip
 
 # 3. Source code
-RUN git clone --recurse-submodules https://github.com/solokeys/solo /solo --config core.autocrlf=input
+RUN git clone --recurse-submodules https://github.com/noxer/solo /solo --config core.autocrlf=input
