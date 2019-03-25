@@ -50,7 +50,7 @@ void hw_init(int lf);
 #define LED_MAX_SCALER          15
 #define LED_MIN_SCALER          5
 // # of ms between each change in LED
-#define HEARTBEAT_PERIOD        15
+#define HEARTBEAT_PERIOD        30
 // Each LED channel will be multiplied by a integer between LED_MAX_SCALER
 // and LED_MIN_SCALER to cause the slow pulse.  E.g.
 // #define LED_INIT_VALUE			0x301000
